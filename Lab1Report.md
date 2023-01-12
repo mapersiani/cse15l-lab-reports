@@ -12,7 +12,7 @@
 This is what VScode looks like on my end.
 
 ### Step 2: Remotely Connecting
-1. With VScode open, navigate to the top of the screen where "Terminal" is written and select "New Terminal".
+1. With VScode open, navigate to the top of the screen where "Terminal" is written and select "New Terminal."
 
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%205.42.09%20PM.png)
 
@@ -22,7 +22,7 @@ This is what VScode looks like on my end.
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%208.21.23%20PM.png)
 
 4. Login again with your TritonLink username and PID and set a new password. Your current password should be your TritonLink password.
-5. Be sure to select `No` to "Change MyTritonLink password".
+5. Be sure to select `No` to "Change MyTritonLink password."
 
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%208.22.28%20PM.png)
 
