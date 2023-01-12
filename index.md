@@ -1,8 +1,5 @@
-**Hello Stranger! Welcome to my CSE15L Website**
-         *by Matteo Persiani*
-         
-***
+# Hello Stranger! Welcome to my CSE15L website used for publishing all of my lab reports.
 
-Here you'll find all of my future lab reports and projects.
+**[Lab Report 1](https://mapersiani.github.io/cse15l-lab-reports/Lab1Report.html)**
 
 
