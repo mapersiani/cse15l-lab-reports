@@ -33,7 +33,7 @@ This is what VScode looks like on my end.
 First time logging in terminal.
 
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%206.00.09%20PM.png)
-Not first time loging in terminal.
+Not first time logging in terminal.
 
 #### Step 3: Trying Some Commands
 * Now you're free to use some commands!
