@@ -1,4 +1,2 @@
-**Bold**Hello Stranger!
-Horizontal rule:
-
+**Hello Stranger!**
 ***
