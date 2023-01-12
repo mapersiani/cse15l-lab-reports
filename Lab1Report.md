@@ -7,6 +7,7 @@
 #### Step 1: Downloading VScode
 1. Start by going to the [VScode download link](https://code.visualstudio.com/download) and downloading the appropriate version of VScode to your computer.
 2. Unpack/Run the downloaded file so that VScode opens on your computer (should look similar to the image below).
+
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%203.15.34%20PM.png)
 This is what VScode looks like on my end.
 
