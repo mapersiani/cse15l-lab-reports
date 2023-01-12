@@ -2,7 +2,7 @@
 *by Matteo Persiani*
 
 ### What you'll need to get started:
-* A laptop or desktop with access to the internet which you can download and install files on.
+* A laptop or desktop with access to the internet on which you can download and install files.
 
 ### Step 1: Downloading VScode
 1. Start by going to the [VScode download link](https://code.visualstudio.com/download) and downloading the appropriate version of VScode to your computer.
