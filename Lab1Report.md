@@ -26,8 +26,8 @@ This is what VScode looks like on my end.
 
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%208.22.28%20PM.png)
 
-4. Now we can return to the terminal. In the terminal, type `ssh <username>@ieng6.ucsd.edu` with `<username>` being your username in the format "cs15lwi23..." with ... being your unique part of the username.
-5. Enter your password and then your terminal should look similar to the one below.
+6. Now we can return to the terminal. In the terminal, type `ssh <username>@ieng6.ucsd.edu` with `<username>` being your username in the format "cs15lwi23..." with ... being your unique part of the username.
+7. Enter your password and then your terminal should look similar to the one below.
 
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%203.21.01%20PM.png)
 First time logging in terminal.
