@@ -12,7 +12,7 @@
 This is what VScode looks like on my end.
 
 #### Step 2: Remotely Connecting
-1. With VScode open, nevegate to the top of the screen where "Terminal" is written and select "New Terminal".
+1. With VScode open, nevigate to the top of the screen where "Terminal" is written and select "New Terminal".
 
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%205.42.09%20PM.png)
 
