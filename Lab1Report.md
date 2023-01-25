@@ -29,7 +29,8 @@
 
 ### Step 3: Trying Some Commands
 * Now you're free to use some commands!
-    * `ls`, `ls -a`, `ls -l`, `ls -lat`, `cd`, `pwd`, and `mkdir` are some good ones to get started with.
+    * `ls`, `ls -a`, `ls -l`, `ls -lat`, `cd`, `pwd`, and `mkdir` are some good ones to get started with. The `ls` command displays a list of files that are in your current directory and all the other verisons (`ls -a`, `ls -l`, and `ls -lat`) go more in depth by providin extra details and more files. The `cd` command allows you to change your current directory and `pwd`will print your working directory. Lastly, `mkdir` allows you to create a new directory.
+    * Notice how some of these commands display files that you cannot see when browsing through your computer.
     * You can also type `help` to bring up a list of some other useful commands.
 
     >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-11%20at%206.41.28%20PM.png)
