@@ -2,12 +2,15 @@
 *by Matteo Persiani*
 
 ### Part 1
-![Image]()
-![Image]()
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%207.40.40%20PM.png)
+The code used to implement `StringServer`
+
+![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%207.42.08%20PM.png)
 * The handleRequest method is called for this command
 * 
-![Image]()
+![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%207.42.30%20PM.png)
 * The handleRequest method is called for this command
+* 
 
 ### Part 2
 * A failure-inducing input for the buggy program:
@@ -29,7 +32,7 @@
     }
     
 * The symptom:
-![Image]()
+![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%209.26.50%20PM.png)
 
 * The code before the bug was fixed:
 
