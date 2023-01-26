@@ -2,4 +2,8 @@
 
 **[Lab Report 1](https://mapersiani.github.io/cse15l-lab-reports/Lab1Report.html)**
 
+**[Lab Report 2](https://mapersiani.github.io/cse15l-lab-reports/Lab2Report.html)**
+
+
+
 
