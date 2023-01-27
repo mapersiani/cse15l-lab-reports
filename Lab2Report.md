@@ -6,11 +6,14 @@
 The code used to implement `StringServer`
 
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%207.42.08%20PM.png)
-* The handleRequest method is called for this command
-* 
+* The handleRequest method is called for this command.
+* Valid arguments include all letters, numbers, and sentences using these values. Certain symbols such as `=`, `#`, and other symbols, and spaces on their own produce errors. Go ahead and run the code yourself to see if you can find any other unique combinations that produce errors!
+* Every time a valid new message is added, the `allAsString` variable changes and the `allInputs` ArrayList adds a value.
+
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%207.42.30%20PM.png)
-* The handleRequest method is called for this command
-* 
+* The handleRequest method is called for this command.
+* Valid argument for inputs after the first are the same as before.
+* The same values are changed as before.
 
 ### Part 2
 * A failure-inducing input for the buggy program:
@@ -72,6 +75,10 @@ The code used to implement `StringServer`
     }
     return sum / (arr.length - count);
     }
+    
+* The fix addresses the issue by adding a `count` variable which keeps track of how many values of the lowest number there are and then subtracts this number from the array length to divide by the correct number of values that were added together
+
 ### Part 3
 
 What I've learned: 
+* In weeks 2 and 3 of lab I learned what the components of a URL are and each component does. I also learned how to run a server locally and remotely. Lastly, I learned the what symptoms, bugs, and filure-inducing inputs are. 
