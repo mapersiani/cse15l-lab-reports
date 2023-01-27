@@ -81,4 +81,4 @@ The code used to implement `StringServer`
 ### Part 3
 
 What I've learned: 
-* In weeks 2 and 3 of lab I learned what the components of a URL are and each component does. I also learned how to run a server locally and remotely. Lastly, I learned the what symptoms, bugs, and filure-inducing inputs are. 
+* In weeks 2 and 3 of lab I learned what the components of a URL are and each component does. I also learned how to run a server locally and remotely and how to write a code to take input from the URL to do some neat things. Lastly, I learned the what symptoms, bugs, and filure-inducing inputs are and the proper termonology to "correct" code.
