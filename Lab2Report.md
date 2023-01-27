@@ -19,13 +19,17 @@ The code used to implement `StringServer`
 * A failure-inducing input for the buggy program:
 
 
+
     @Test
     public void averageWithoutLowestDupe() {
         double[] input = {0.5, 1.0, 2.0, 0.5};
         assertEquals(1.5, ArrayExamples.averageWithoutLowest(input), 0);
     }
 
+
+
 * An input that doesn’t induce a failure:
+
 
 
     @Test
@@ -34,11 +38,14 @@ The code used to implement `StringServer`
         assertEquals(1.5, ArrayExamples.averageWithoutLowest(input), 0);
     }
     
+    
+    
 * The symptom:
 
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%209.26.50%20PM.png)
 
 * The code before the bug was fixed:
+
 
 
     static double averageWithoutLowest(double[] arr) {
@@ -54,7 +61,10 @@ The code used to implement `StringServer`
     return sum / (arr.length - 1);
     }
 
+
+
 * The code after the bug was fixed:
+
 
 
     static double averageWithoutLowest(double[] arr) {
@@ -76,7 +86,9 @@ The code used to implement `StringServer`
     }
     return sum / (arr.length - count);
     }
-    
+
+
+
 * The fix addresses the issue by adding a `count` variable which keeps track of how many values of the lowest number there are and then subtracts this number from the array length to divide by the correct number of values that were added together
 
 ### Part 3
