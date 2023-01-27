@@ -20,24 +20,26 @@ The code used to implement `StringServer`
 
 
 
-    @Test
-    public void averageWithoutLowestDupe() {
-        double[] input = {0.5, 1.0, 2.0, 0.5};
-        assertEquals(1.5, ArrayExamples.averageWithoutLowest(input), 0);
-    }
+```
+@Test
+public void averageWithoutLowestDupe() {
+    double[] input = {0.5, 1.0, 2.0, 0.5};
+    assertEquals(1.5, ArrayExamples.averageWithoutLowest(input), 0);
+}
+```
 
 
 
 * An input that doesn’t induce a failure:
 
 
-
-    @Test
-    public void averageWithoutLowest() {
-        double[] input = {1.0, 2.0, 0.5};
-        assertEquals(1.5, ArrayExamples.averageWithoutLowest(input), 0);
-    }
-    
+```
+@Test
+public void averageWithoutLowest() {
+    double[] input = {1.0, 2.0, 0.5};
+    assertEquals(1.5, ArrayExamples.averageWithoutLowest(input), 0);
+}
+```    
     
     
 * The symptom:
@@ -47,46 +49,46 @@ The code used to implement `StringServer`
 * The code before the bug was fixed:
 
 
-
-    static double averageWithoutLowest(double[] arr) {
+```
+static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
     for(double num: arr) {
-      if(num < lowest) { lowest = num; }
+        if(num < lowest) { lowest = num; }
     }
     double sum = 0;
     for(double num: arr) {
-      if(num != lowest) { sum += num; }
+        if(num != lowest) { sum += num; }
     }
     return sum / (arr.length - 1);
-    }
+}
+```
 
 
 
 * The code after the bug was fixed:
 
 
-
-    static double averageWithoutLowest(double[] arr) {
-    
+```
+static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     int count = 0;
     double lowest = arr[0];
     for(double num: arr) {
-      if(num < lowest) { lowest = num; }
+        if(num < lowest) { lowest = num; }
     }
     double sum = 0;
     for(double num: arr) {
-      if(num != lowest) { 
+        if(num != lowest) { 
         sum += num; 
-      }
-      else {
-          count++;
-      }
+        }
+        else {
+            count++;
+        }
     }
     return sum / (arr.length - count);
-    }
-
+}
+```
 
 
 * The fix addresses the issue by adding a `count` variable which keeps track of how many values of the lowest number there are and then subtracts this number from the array length to divide by the correct number of values that were added together
