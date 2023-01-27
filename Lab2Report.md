@@ -35,6 +35,7 @@ The code used to implement `StringServer`
     }
     
 * The symptom:
+
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-01-25%20at%209.26.50%20PM.png)
 
 * The code before the bug was fixed:
