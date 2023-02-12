@@ -238,7 +238,7 @@ bash-3.2$ find ./written_2 -name *.txt
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-10%20at%203.11.42%20PM.png)
 Here's the output on a terminal where it is easier to view.
 
-* For this next command lets use the find command to find the location of a file called "California-WhatToDo.txt" When we enter the command this time, we are given just one result with the path to the file that we were searching for.
+* For this next command let's use the find command to find the location of a file called "California-WhatToDo.txt" When we enter the command this time, we are given just one result with the path to the file that we were searching for.
 ```
 bash-3.2$ find ./written_2 -name "California-WhatToDo.txt"
 ./written_2/travel_guides/berlitz2/California-WhatToDo.txt
@@ -248,10 +248,10 @@ Here's the output on a terminal.
 
 `find -type`
 
-*This command can be used to search for file of a specific type.*
+*This command can be used to search for files of a specific type.*
 *Source: ChatGPT*
 
-* In this first example, lets search for all of the directorys in the `./written_2` path. To do this, we type `d` after `-type` which indicates that we want only directories to be shown.
+* In this first example, let's search for all of the directories in the `./written_2` path. To do this, we type `d` after `-type` which indicates that we want only directories to be shown.
 ```
 bash-3.2$ find ./written_2 -type d
 ./written_2
@@ -506,7 +506,7 @@ Here's the output on a terminal where it is easier to view.
 *This command can be used to search for files of a specific size.*
 *Source: ChatGPT*
 
-* First, lets search for files that are smaller than 5 kilobytes in size. To do this we type `-5k` after `-size`.
+* First, let's search for files that are smaller than 5 kilobytes in size. To do this we type `-5k` after `-size`.
 ```
 bash-3.2$ find ./written_2 -size -5k
 ./written_2
@@ -538,7 +538,7 @@ bash-3.2$ find ./written_2 -size -5k
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-10%20at%203.17.23%20PM.png)
 Here's the output on a terminal where it is easier to view.
 
-* Now lets try to find some of the larger files in this path. To do this, lets search for all files greater than 200 kilobytes in size by adding `+200k` at the end of our command line.
+* Now let's try to find some of the larger files in this path. To do this let's search for all files greater than 200 kilobytes in size by adding `+200k` at the end of our command line.
 ```
 bash-3.2$ find ./written_2 -size +200k
 ./written_2/travel_guides/berlitz1/WhereToItaly.txt
@@ -553,7 +553,7 @@ Here's the output on a terminal.
 *This command can be used to search for files based on their modification time.*
 *Source: ChatGPT*
 
-* First, we'll look for files that were modified in the last 7 days by adding `-7` after `-type`. After entering this command, we can see that everything is returned since all of the files were downloaded withing 7 days.
+* First, we'll look for files that were modified in the last 7 days by adding `-7` after `-type`. After entering this command, we can see that everything is returned since all of the files were downloaded within 7 days.
 ```
 bash-3.2$ find ./written_2 -mtime -7
 ./written_2
@@ -796,7 +796,7 @@ bash-3.2$ find ./written_2 -mtime -7
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-10%20at%203.19.15%20PM.png)
 Here's the output on a terminal where it is easier to view.
 
-* For the final command, lets make a modification to one of the files. I chose to modify "WhereToItaly.txt" Now let's search for what was modified in the last day using `-1`. Now you can see that only the file I recently modified is being returned.
+* For the final command, let's make a modification to one of the files. I chose to modify "WhereToItaly.txt" Now let's search for what was modified in the last day using `-1`. Now you can see that only the file I recently modified is being returned.
 ```
 bash-3.2$ find ./written_2 -mtime -1
 ./written_2/travel_guides/berlitz1/WhereToItaly.txt
