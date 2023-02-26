@@ -37,14 +37,23 @@ The `git clone git@githum.com:mapersiani/lab7.git` command clones the fork onto 
 The `cd lab7` command changes my current working directory to lab7 and `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` compiles all the .java files in the current working directory. Then, `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` runs the JUnit tester file and displays the errors that were returned.
 
 ### 7. Edit the code file to fix the failing test
-* 
-![Image](https://mapersiani.github.io/cse15l-lab-reports/IMG_8295.jpg)
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%207.01.58%20PM.png)
+* Now I need to edit the code to fix the error. I'll type `<Ctrl>` + `<R>` then search "nano" to find the command that I need from my history and `<enter>` to run it. 
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/IMG_8295.jpg)
+The `nano +43,13 ListExamples.java` command takes me into a code editor for ListExamples.java at line 43, column 13.
+
+* Keys pressed: `<delete><2>` then `<Ctrl>` + `<O>`, `<enter>` and lastly, `<Ctrl>` + `<X>`
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%207.01.58%20PM.png)
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%207.02.21%20PM.png)
+Doing `<delete><2>` allows me to fix the error in the code and `<Ctrl>` + `<O>`, `<enter>` saves the newly modified file and `<Ctrl>` + `<X>` exits me out of nano.
+
 ### 8. Run the tests, demonstrating that they now succeed
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-25%20at%204.31.12%20PM.jpeg)
+* Now I run the tests the same way that I did previously in step 6 and we can see that they both passed this time!
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-25%20at%204.31.12%20PM.jpeg)
+
 ### 9. Commit and push the resulting change to your Github account 
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-25%20at%204.32.30%20PM.jpeg)
+* Almost done! I'll type "git add L" then `<tab>` and "java" then "git commit -m "Edited to work"" and finally "git push."
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-25%20at%204.32.30%20PM.jpeg)
+`git add ListExamples.java` adds the ListExamples.java file to the list of commitable files. `git commit -m "Edited to work"` commits the file with the message "Edited to work." `git push` pushes the commited changes to Github.
 
 ### Stop the Timer!
 * 58 seconds to run all these commands, take screenshots, and write a lab report, not bad.
