@@ -2,12 +2,19 @@
 *by Matteo Persiani*
 
 ### 1. Setup Delete any existing forks of the repository you have on your account
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.44.11%20PM.png)
+* First, I need to delete my old fork. Do do this I'll navigate to the settings tab of lab7 and then scroll down to the "Delete this repository" button.
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.44.11%20PM.png)
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.45.27%20PM.png)
-![Image](https://mapersiani.github.io/cse15l-lab-reports/IMG_8292.jpg)
+
+* I also need to delete the lab7 repo from my ieng6 account so to do this I'll type "rm -rf lab7"
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/IMG_8292.jpg)
+`rm -rf` is a command to delete a directory without any confirmation pop ups
+
 ### 2. Setup Fork the repository
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.43.16%20PM.png)
+* Next, I'll fork the repository by creating a new fork of lab7
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.43.16%20PM.png)
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.43.45%20PM.png)
+
 ### 3. The real deal Start the timer!
 ![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.46.24%20PM.png)
 ### 4. Log into ieng6
