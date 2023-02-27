@@ -5,7 +5,8 @@
 * First, I need to delete my old fork. To do this I'll navigate to the settings tab of lab7 and then scroll down to the "Delete this repository" button and click it.
 
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.44.11%20PM.png)
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.45.27%20PM.png)
+
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.45.27%20PM.png)
 
 * I also need to delete the lab7 repo from my ieng6 account so to do this I'll type `rm -rf lab7` and then `<enter>`.
 
@@ -16,7 +17,8 @@
 * Next, I'll fork the repository by creating a new fork of lab7. To do this I'll click "Fork" in the top right of the lab7 repository and then "Create fork."
 
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.43.16%20PM.png)
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.43.45%20PM.png)
+
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%206.43.45%20PM.png)
 
 ### 3. The real deal: Start the timer!
 * Now I'll start a timer.
@@ -54,7 +56,8 @@ The `nano +43,13 ListExamples.java` command takes me into a code editor for List
 * Keys pressed: `<delete><2>` then `<Ctrl>` + `<O>`, `<enter>` and lastly, `<Ctrl>` + `<X>`.
 
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%207.01.58%20PM.png)
-![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%207.02.21%20PM.png)
+
+>![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-02-23%20at%207.02.21%20PM.png)
 Doing `<delete><2>` allows me to fix the error in the code and `<Ctrl>` + `<O>`, `<enter>` saves the newly modified file and `<Ctrl>` + `<X>` exits me out of nano.
 
 ### 8. Run the tests, demonstrating that they now succeed
