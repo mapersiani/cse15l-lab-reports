@@ -8,7 +8,7 @@
 * This time, I've written a bash script to do some of the assigned tasks for me. Similarly to the first time, I will do the setup manually and log into my `ieng6` account the same way. After that though, one command is all I need to run to complete the rest of the tasks.
 
 >![Image](https://mapersiani.github.io/cse15l-lab-reports/Screenshot%202023-03-12%20at%203.23.56%20PM.png)
-The script I wrote
+Here's the script I wrote
 
 ##### 1. Setup: Delete any existing forks of the repository you have on your account
 * First, I need to delete my old fork. To do this I'll navigate to the settings tab of lab7 and then scroll down to the "Delete this repository" button and click it.
