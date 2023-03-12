@@ -1,6 +1,6 @@
 # Putting it All Together
 *by Matteo Persiani*
-## Based on Lab 4
+## Based on [Lab 4](https://mapersiani.github.io/cse15l-lab-reports/Lab4Report.html)
 ### How I Did it the First Time
 * The first time doing this lab task, I used the search function in bash to search for my past commands to complete the assigned task fairly quick.
 
