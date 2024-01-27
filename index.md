@@ -1,4 +1,4 @@
-### CSE 15L
+## CSE 15L
 **[Remote Access](https://mapersiani.github.io/cse15l-lab-reports/Lab1Report.html)**
 
 **[Servers and Bugs](https://mapersiani.github.io/cse15l-lab-reports/Lab2Report.html)**
